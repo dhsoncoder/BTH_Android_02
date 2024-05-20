@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/myimg"
+        android:layout_width="match_parent"
+        android:layout_height="476dp"
+        android:src="@drawable/_d6d6cfc883929677028" />
+
+    <ImageButton
+        android:id="@+id/btncapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:background="#00000000"
+        android:scaleType="center"
+        app:srcCompat="@mipmap/ic_camera_foreground" />
+</LinearLayout>
